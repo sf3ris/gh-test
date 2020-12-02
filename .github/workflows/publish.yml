@@ -35,7 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
           BRANCH_NAME: 'main' 
         run: |
-          echo 'test_file_data' > test_file
+          echo 'test_file_data_2' > test_file
           #!/bin/sh
 
           # check values
